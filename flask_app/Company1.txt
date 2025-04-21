@@ -1,0 +1,9 @@
+Tester's Name: Mehjabin Hossain
+Test Date: 30-09-2024
+
+Passed:: Login successful for 'floralgarden@yopmail.com'
+Passed:: Successfully clicked on the Settings button.
+Passed:: Successfully clicked on the Company Settings.
+Passed:: File uploaded successfully.
+Passed:: Title text updated successfully.
+Passed:: Successfully clicked on Save Changes button.

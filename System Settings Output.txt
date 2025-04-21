@@ -1,0 +1,16 @@
+Tester's Name: Mehjabin Hossain
+Test Date: 21-04-2025
+
+Passed:: Successfully clicked on the Settings button.
+Passed:: Successfully clicked on the Company Settings.
+Passed:: Successfully selected 'Post' as the currency symbol position.
+Passed:: Successfully clicked on the 'System Settings' button.
+Passed:: Successfully selected '00,000.00' as the amount format.
+Passed:: Successfully entered 'USD' as the currency.
+Passed:: Successfully selected '10:30 PM' as the time format.
+Passed:: Successfully entered '#FGC' as the invoice prefix.
+Passed:: Successfully entered '#CUPR' as the customer prefix.
+Passed:: Successfully entered '#CUPR' as the Supplier Prefix.
+Passed:: Successfully selected 'Excluded VAT' as the VAT type.
+Passed:: Successfully entered 'DEMO NOTES' as the Invoice Footer Notes.
+Passed:: Successfully clicked the 'Save Changes' button.

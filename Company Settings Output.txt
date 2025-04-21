@@ -1,0 +1,13 @@
+Tester's Name: Mehjabin Hossain
+Test Date: 08-04-2025
+
+Passed:: Login successful for 'floralgarden@yopmail.com'
+Passed:: Successfully clicked on the Settings button.
+Passed:: Successfully clicked on the Company Settings.
+Passed:: Successfully clicked on the 'Company Settings' Option.
+Passed:: Successfully entered 'FLORAR GARDEN' as the Company Name.
+Passed:: Successfully entered '199999' as the Organization number.
+Failed:: Invalid VAT Number entered: 2323abc.
+Failed:: Invalid telephone Number entered: +12121BBBB.
+
+

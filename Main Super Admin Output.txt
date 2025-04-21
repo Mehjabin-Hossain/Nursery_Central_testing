@@ -1,0 +1,15 @@
+Tester's Name: Mehjabin Hossain  
+Test Date: 19-04-2025
+
+Passed:: Login successful for 'superadmin@example.com'
+Passed:: Profile updated with Name: 'Test Admin 123' and Email: 'testadmin@example.com'
+Failed:: Profile updated with Name: 'MehjabinAdmin' and Email: 'mehjabin.com' Reason:: Title should have only alphabet.
+Passed:: Profile updated with Name: 'Super Admin' and Email: 'superadmin@example.com'
+Passed:: Password changed successfully.
+Passed:: Successfully logged out for 'testadmin@example.com'
+Passed:: Login successful for 'testadmin@example.com'
+Passed:: Navigated to My Profile for testadmin@example.com
+Passed:: Profile updated with Name: 'MehjabinAdmin' and Email: 'mehjabin.com'
+Passed:: Profile updated with Name: 'Super Admin' and Email: 'superadmin@example.com'
+Passed:: Password changed successfully.
+Passed:: Successfully logged out for 'superadmin@example.com'

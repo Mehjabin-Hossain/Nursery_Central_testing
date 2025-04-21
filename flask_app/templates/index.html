@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automation Testing</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Automating UI Testing Using Python and Selenium</h1>
+        <p>Automate UI testing for <a href="https://test-nursery-central.rebingtest.com/login">Visit the site.</a> Explore our comprehensive testing automation scripts.</p>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        <h2>Explore Test Automation Scripts</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>Login Automation</h3>
+                <p>Automates the login process using Selenium WebDriver, validating credentials and verifying authentication.</p>
+                <a class="button" href="{{ url_for('run_script', script_name='login') }}">Run Login</a>
+            </div>
+
+            <div class="card">
+                <h3>Brand Settings Automation</h3>
+                <p>Automates theme changes, brand settings, and preferences. Ensures accurate application and saves changes.</p>
+                <a class="button" href="{{ url_for('run_script', script_name='brand_settings') }}">Run Brand Settings</a>
+            </div>
+
+            <div class="card">
+                <h3>System Settings Automation</h3>
+                <p>Test system settings Options Save and validate system preferences using Selenium WebDriver.</p>
+                <a class="button" href="{{ url_for('run_script', script_name='system_settings') }}">Run System Settings</a>
+            </div>
+
+            <div class="card">
+                <h3>Company Settings Automation</h3>
+                <p>Automates company-related configurations ensuring smooth functionality across all departments.</p>
+                <a class="button" href="{{ url_for('run_script', script_name='company_settings') }}">Run Company Settings</a>
+            </div>
+
+            <div class="card">
+                <h3>Bank & Invoice Settings Automation</h3>
+                <p>Tests banking module integration, security validation, preferences and Invoice Logo Change.</p>
+                <a class="button" href="{{ url_for('run_script', script_name='bank_settings') }}">Run Bank & Invoice Settings</a>
+            </div>
+
+            <div class="card">
+                <h3>Settings User Automation</h3>
+                <p>Manages user setting changes, preferences, profiles within the application, and Edit.</p>
+                <a class="button" href="{{ url_for('run_script', script_name='settings_user') }}">Run Settings User</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

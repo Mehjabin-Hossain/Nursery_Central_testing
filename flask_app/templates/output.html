@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automation Testing Output</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1 class="header content">Automation Testing Results</h1>
+    <div class="output-container" id="output-content">
+        <!-- Directly display the output_content from Flask -->
+        {{ output_content|safe }}
+    </div>
+    <div class="back-button">
+        <a href="{{ url_for('home') }}">Back to Home</a>
+    </div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        let content = "{{ output_content | safe }}";  // Pass it as a string
+        content = content.replace(/Passed::/g, '<span class="passed">Passed::</span>');
+        content = content.replace(/Failed::/g, '<span class="failed">Failed::</span>');
+        document.getElementById('output-content').innerHTML = content;  // Inject the updated content
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+Tester's Name: Mehjabin Hossain
+Test Date: 21-04-2025
+
+Passed:: Successfully clicked on the Settings button.
+Passed:: Successfully clicked on the Company Settings.
+Passed:: Successfully clicked on the 'Bank Settings' button.
+Passed:: Successfully entered 'Abc Bank' as the Bank Name.
+Failed:: Invalid Account Number entered: 7777ab.
+Passed:: Successfully entered '99999' as the Company Identification Number.
+Passed:: Successfully clicked on the 'Bank Settings Save Changes' button.
+Passed:: Successfully clicked on the 'Invoice Print Settings' button.
+Passed:: Successfully uploaded the file in the Invoice Print Settings.
+Passed:: Successfully clicked on the 'Save Changes' button after uploading the file.

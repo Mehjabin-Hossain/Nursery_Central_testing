@@ -1,0 +1,19 @@
+Tester's Name: Mehjabin Hossain
+Test Date: 19-04-2025
+
+Passed:: Successfully clicked on the Settings button.
+Passed:: Successfully clicked on the User button.
+Passed:: Successfully clicked on the Create button.
+Passed:: Successfully entered name into the Name field.
+Passed:: Successfully entered email into the Email field.
+Passed:: Successfully selected 'Test Collector1' from the User Role dropdown.
+Passed:: Successfully selected 'Can be a cleaner' checkbox.
+Passed:: Successfully clicked on the Create button to submit the form.
+Passed: User was successfully created.
+Passed:: Successfully clicked on the Edit button for the last created user.
+Passed:: Successfully updated the Name field.
+Passed:: Successfully updated the Email field.
+Passed:: Successfully selected 'collector' from the User Role dropdown.
+Passed:: Successfully selected 'Can handle production task' checkbox.
+Passed:: Successfully clicked on the 'Update button' to save changes.
+

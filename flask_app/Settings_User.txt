@@ -1,0 +1,14 @@
+Tester's Name: Mehjabin Hossain
+Test Date: 02-10-2024
+
+Passed:: Login failed for 'testcompany@example.com': These credentials do not match our records.
+Passed:: Login successful for 'company@example.com'
+Passed:: Successfully clicked on the Settings button.
+Passed:: Successfully clicked on the User button.
+Passed:: Successfully clicked on the Create button.
+Passed:: Successfully entered name into the Name field.
+Passed:: Successfully entered email into the Email field.
+Passed:: Successfully selected 'Test Collector' from the User Role dropdown.
+Passed:: Successfully selected 'Can be a cleaner' checkbox.
+Passed:: Successfully clicked on the Create button to submit the form.
+Passed:: The email has already been taken.

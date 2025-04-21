@@ -1,0 +1,158 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5; /* Light background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+.header {
+    background-color: #2C3E50; /* Dark blue header background */
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* Main Container and Grid */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for content */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    text-align: center; /* center-aligned content inside the container */
+}
+
+/* Style for the "Explore Test Automation Scripts" text */
+.container h2 {
+    text-align: center;
+    color: #4CAF50; /* Green color */
+    margin-bottom: 30px;
+}
+
+/* Card Grid for Buttons */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Card Styling */
+.card {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for cards */
+    text-align: center;
+}
+
+.card h3 {
+    color: #2C3E50;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+.button {
+    background-color: #6FD943;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #49A010; /* Darker green on hover */
+    transition: background-color 0.3s ease;
+}
+
+/* Output Container */
+.output-container {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    text-align: left;
+    font-family: monospace;
+    white-space: pre-wrap;
+}
+
+/* Back Button */
+.back-button {
+    margin-top: 20px;
+}
+
+.back-button a {
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.back-button a:hover {
+    background-color: #45a049;
+}
+
+/* Content Styling */
+.content {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 16px;
+    color: #333333;
+}
+
+/* Passed and Failed Styles */
+.passed {
+    color: green;
+    font-weight: bold;
+}
+
+.failed {
+    color: red;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+}
